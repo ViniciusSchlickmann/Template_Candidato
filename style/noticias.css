@@ -77,16 +77,18 @@ li :hover {
     width: 100%;
 }
 
-.news1 img {
+.news1 figcaption, .news2 figcaption, .news3 figcaption{
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.news1 img, .news2 img, .news3 img {
     width: 100%;
+    border-radius: 8px;
 }
 
 .news2 {
     width: 50%;
-}
-
-.news2 img, .news2 p{
-    width: 100%;
 }
 
 .news3{
@@ -97,12 +99,18 @@ li :hover {
     margin-bottom: 3%;
 }
 
-.news3 img {
-    width: 100%;
-}
-
 .news p {
     font-size: 1.2vw;
+}
+
+.news h2 {
+    color: #FF7B00;
+}
+
+.ler_noticia {
+    width: 100%;
+    text-decoration: none;
+    background-color: #112244;
 }
 
 

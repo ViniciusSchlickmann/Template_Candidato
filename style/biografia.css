@@ -88,6 +88,10 @@
     font-size: 1.2vw;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .ancoras {
     margin-top: 3%;
     margin-bottom: 3%;
@@ -100,7 +104,7 @@
     padding: 8px 16px;
     background-color: #112244;
     border-radius: 8px;
-
+    transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 .ancoras a:hover {
